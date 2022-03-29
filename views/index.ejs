@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <title>Image_Resizer</title>
+</head>
+<body>
+  <br>
+  <div class="container">
+    <h2>Upload Image</h2>
+    <h4 style="color:brown"><%= typeof msg != 'undefined' ? msg : '' %></h4>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <div class="file-field input-field">
+        <div class="btn grey">
+          <span>Choose Image</span>
+          <input name="img" type="file">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">        
+        </div>
+      <button type="submit" class="btn">Submit Image</button>
+    </form>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
+</body>
+</html>
