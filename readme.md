@@ -1,12 +1,12 @@
-# scripts needed to Test/ Start/ Build The Application
+## scripts needed to Test/ Start/ Build The Application
 
-# compile and run code: 
+### compile and run code: 
  npm run start 
 
-# use tsc in watch mode: 
+### use tsc in watch mode: 
  npm run watch
 
-# test code: 
+### test code: 
  npm run test
 
 ## Endpoints
