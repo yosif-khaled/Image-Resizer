@@ -1,11 +1,15 @@
-scripts needed to test/start/build your application
+# scripts needed to Test/ Start/ Build The Application
 
-to compile and run code: npm run start 
-to use tsc in watch mode: npm run watch
+# compile and run code: 
+ npm run start 
 
-to test code: npm run test
+# use tsc in watch mode: 
+ npm run watch
 
-endpoints that should be accessed
+# test code: 
+ npm run test
+
+## Endpoints
 
 GET "/" should render Index.ejs where you can choose and image from your hard drive
 -- IMAGE SHOULD BE /jpeg|jpg|png|gif/ only and not larger than 3 mb --
